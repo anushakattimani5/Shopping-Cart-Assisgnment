@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <label for="product">Product:</label>
+    <input type="text" id="product" placeholder="Enter product name">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" placeholder="Quantity">
+    <button onclick="addProduct()">Add Product</button>
+
+    <div id="cartState"></div>
+</body>
+</html>
