@@ -1,0 +1,2 @@
+To connect to Price API use link: npm run serve-products
+To start script and to show output in terminal use link: node index.js
